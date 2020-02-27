@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fantasycard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="fantasycard.csv" />
+    <None Include="Feladat.pdf" />
+    <None Include="Feladat.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="megoldas1.png" />
+    <Content Include="megoldas2txt.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
